@@ -3,7 +3,7 @@ import math
 class BMICalc:
     def __init__(self, height, weight):
         self.height = height
-        self.weight = weight * 0.45
+        self.weight = weight
 
     def bmi_value(self):
         bmi_value = self.weight / (self.height ** 2)
